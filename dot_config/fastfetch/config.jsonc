@@ -1,0 +1,108 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    	"source": "C:/Users/Arch/.config/fastfetch/logo_ascii.txt",
+    	"type": "file",
+    	"width": 5,
+      "height": 5,
+			"color": {
+				"1": "#cccccc"
+      },
+    	"padding": {
+    		"top": 1
+    	}
+    },
+    "display": {
+        "separator": " ",
+				"color": {
+					"title": "#FFD700"
+        }
+    },
+    "modules": [
+	"break",
+	{
+            "type": "title",
+            "keyWidth": 10
+        },
+        "break",
+        {
+            "type": "os",
+            "key": " ",
+            "keyColor": "yellow",
+        },
+        {
+            "type": "kernel",
+            "key": " ",
+            "keyColor": "yellow",
+        },
+        {
+            "type": "packages",
+            "format": "{} (pacman)",
+            "key": " ",
+            "keyColor": "yellow",  
+        },
+        {
+            "type": "shell",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "terminal",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "wm",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "display",
+            "key": " ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "cpu",
+            "key": " ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "gpu",
+            "format": "{2}",
+            "key": " ",
+            "keyColor": "yellow"
+        },
+        {
+             "type": "memory",
+            "key": "󰍛 ",
+            "keyColor": "yellow"
+        },
+        {
+             "type": "swap",
+            "key": "󰾴 ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "disk",
+            "key": " ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "uptime",
+            "key": " ",
+            "keyColor": "yellow", 
+        },
+        {
+            "type": "command",
+            "key": "󱦟 ",
+            "keyColor": "yellow",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+				"break",
+				{
+					"type": "colors",
+					"symbol": "circle"
+				},
+        "break"
+    ]
+}
