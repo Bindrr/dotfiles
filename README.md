@@ -1,1 +1,1 @@
-Windows & Linux dot files managed with [chezmoi]([url](https://chezmoi.io/))
+Windows & Linux dot files managed with [chezmoi](https://chezmoi.io/)
