@@ -47,7 +47,6 @@ bars:
       - taskbar
       right:
       - media
-      - audio_visualizer
       - systray
       - brightness
       - volume
