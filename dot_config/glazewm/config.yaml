@@ -175,13 +175,13 @@ window_rules:
     match:
       - window_process: { regex: "(?i)vscode|vscodium|zed|idea" }
 
-  - commands: ["move --workspace 3"]
+  - commands: ["focus --workspace 3", "move --workspace 3"]
     match:
-      - window_process: { regex: "(?i)forkgram|telegram|discord" }
+      - window_process: { regex: "(?i)davinchi|affinity" }
 
   - commands: ["focus --workspace 4", "move --workspace 4"]
     match:
-      - window_process: { regex: "(?i)davinchi|affinity" }
+      - window_process: { regex: "(?i)forkgram|telegram|discord" }
 
   - commands: ["focus --workspace 5", "move --workspace 5"]
     match:
