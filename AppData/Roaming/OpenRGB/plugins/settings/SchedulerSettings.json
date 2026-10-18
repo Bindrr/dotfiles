@@ -3,7 +3,7 @@
         "action": 0,
         "cron_line": "0 0 19 * * ?",
         "name": "Golden",
-        "next_run": 17919936009202501,
+        "next_run": 17923392000391624,
         "run": true,
         "sub_action": "golden"
     },
@@ -18,7 +18,7 @@
         "action": 0,
         "cron_line": "0 00 7 * * ?",
         "name": "White",
-        "next_run": 17919504003551401,
+        "next_run": 17922960004902940,
         "run": true,
         "sub_action": "white"
     }

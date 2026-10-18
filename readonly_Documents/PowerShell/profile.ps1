@@ -1,4 +1,5 @@
 $show_help_Override = ''
+$updateInterval_Override = 48
 
 # fastfetch
 
@@ -13,3 +14,4 @@ Set-Alias -Name tldr -Value tealdeer
 function npp { & "D:\Portable\Notepad++\notepad++.exe" $args }
 function tealdeer { & "C:\Tools\TealDeer\tealdeer.exe" $args }
 function matrix { wsl cmatrix $args }
+function wh { Get-Command $args }
