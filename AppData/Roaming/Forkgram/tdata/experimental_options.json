@@ -1,0 +1,6 @@
+{
+    "hide-ai-button": true,
+    "new-windows-size-as-first": true,
+    "tabbed-panel-show-on-click": true,
+    "websocket-transport": true
+}
