@@ -1,9 +1,9 @@
 [
     {
         "action": 0,
-        "cron_line": "0 0 19 * * ?",
+        "cron_line": "0 30 18 * * ?",
         "name": "Golden",
-        "next_run": 17923392000391624,
+        "next_run": 17925102003106142,
         "run": true,
         "sub_action": "golden"
     },
@@ -18,7 +18,7 @@
         "action": 0,
         "cron_line": "0 00 7 * * ?",
         "name": "White",
-        "next_run": 17922960004902940,
+        "next_run": 17925552006468657,
         "run": true,
         "sub_action": "white"
     }
