@@ -123,29 +123,29 @@ window_behavior:
 workspaces:
   - name: '1'
     keep_alive: true
-    # display_name: "Main"
+    # display_name: 'Main'
   - name: '2'
     keep_alive: true
-    # display_name: "Dev"
+    # display_name: 'Dev'
   - name: '3'
     keep_alive: true
-    # display_name: "Social"
+    # display_name: 'Social'
   - name: '4'
-    # display_name: "Create"
+    # display_name: 'Create'
   - name: '5'
-    # display_name: "Stream"
+    # display_name: 'Stream'
   - name: '6'
-    display_name: "6"
+    display_name: '6'
   - name: '7'
-    display_name: "7"
+    display_name: '7'
 
 window_rules:
   - commands: ['ignore']
     match:
       # Ignores any Zebar windows.
       - window_process: { equals: 'zebar' }
-      
       - window_process: { equals: 'raycast' }
+      - window_process: { equals: 'java' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -167,34 +167,38 @@ window_rules:
       - window_process: { equals: 'POWERPNT' }
         window_class: { not_regex: 'PPTFrameClass' }
         
-  - commands: ["move --workspace 1"]
+  - commands: ['toggle-floating']
     match:
-      - window_process: { regex: "(?i)zen|helium|librewolf" }
-
-  - commands: ["move --workspace 2"]
-    match:
-      - window_process: { regex: "(?i)vscode|vscodium|zed|idea" }
-
-  - commands: ["focus --workspace 3", "move --workspace 3"]
-    match:
-      - window_process: { regex: "(?i)davinchi|affinity" }
-
-  - commands: ["focus --workspace 4", "move --workspace 4"]
-    match:
-      - window_process: { regex: "(?i)forkgram|telegram|discord" }
-
-  - commands: ["focus --workspace 5", "move --workspace 5"]
-    match:
-      - window_process: { regex: "(?i)sonora|music|pear" }
-
-  - commands: ["focus --workspace 6", "move --workspace 6"]
-    match:
-      - window_process: { regex: "obs" }
-      - window_process: { regex: "(?i)throne|adguard|winws" }
-
-  # - commands: ["focus --workspace 6", "move --workspace 6", "focus --workspace 1"]
+      - window_title: { equals: 'Auto-Type - KeePassXC' }
+        
+  # - commands: ['move --workspace 1']
     # match:
-      # - window_process: { regex: "(?i)winws" }
+      # - window_process: { regex: '(?i)zen|helium|librewolf' }
+
+  - commands: ['move --workspace 2']
+    match:
+      - window_process: { regex: '(?i)vscode|vscodium|zed|idea' }
+
+  - commands: ['focus --workspace 3', 'move --workspace 3']
+    match:
+      - window_process: { regex: '(?i)davinchi|affinity' }
+
+  - commands: ['focus --workspace 4', 'move --workspace 4']
+    match:
+      - window_process: { regex: '(?i)forkgram|telegram|discord' }
+
+  - commands: ['focus --workspace 5', 'move --workspace 5']
+    match:
+      - window_process: { regex: '(?i)sonora|music|pear' }
+
+  - commands: ['focus --workspace 6', 'move --workspace 6']
+    match:
+      - window_process: { regex: 'obs' }
+      - window_process: { regex: '(?i)throne|adguard|winws' }
+
+  # - commands: ['focus --workspace 6', 'move --workspace 6', 'focus --workspace 1']
+    # match:
+      # - window_process: { regex: '(?i)winws' }
 
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
