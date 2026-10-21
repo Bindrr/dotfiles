@@ -14,6 +14,5 @@ dot_config/whkdrc
 dot_config/flameshot/
 dot_config/OpenRGB/
 dot_config/zsh/
-dot_bashrc
+dot_profile
 {{- end }}
-
