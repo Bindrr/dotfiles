@@ -6,3 +6,5 @@
 [user]
 	name = Bindrr
 	email = 74821331+Bindrr@users.noreply.github.com
+[core]
+	autocrlf = input
