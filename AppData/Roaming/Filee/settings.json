@@ -1,24 +1,30 @@
 {
-  "schemaVersion": 20,
+  "schemaVersion": 32,
   "language": "auto",
   "startWithSystem": true,
-  "contextMenuEnabled": true,
+  "contextMenuEnabled": false,
   "checkForUpdates": true,
-  "closeAction": "Ask",
-  "keepHistory": true,
-  "notifiedUpdateVersion": "1.12.0",
+  "closeAction": "Tray",
+  "keepHistory": false,
+  "historyLimit": 200,
+  "showInDock": true,
+  "showMenuBarIcon": true,
+  "notifiedUpdateVersion": "2.0.0",
+  "whatsNewSeenVersion": "2.0.0",
   "notifiedEngineVersions": {},
   "paused": false,
   "theme": {
     "mode": "System",
     "accent": "#D4AF37",
-    "cornerRadius": 17,
+    "cornerRadius": 22,
     "reduceMotion": false
   },
   "donut": {
     "outerRadius": 150,
     "holeRatio": 0.42,
-    "opacity": 0.96
+    "opacity": 0.85,
+    "flipKey": "Tab",
+    "flipWithWheel": true
   },
   "triggers": [
     {
@@ -64,9 +70,11 @@
     "font",
     "cad",
     "model3d",
+    "geo",
     "archive",
     "ebook",
     "subtitle",
+    "wic",
     "ffmpeg",
     "pandoc",
     "ghostscript",
@@ -82,6 +90,10 @@
     "subfolderName": "converted",
     "customFolder": ""
   },
+  "browserDrops": {
+    "folder": "",
+    "saveOnlyConverted": true
+  },
   "engineOwnCopies": {
     "ffmpeg": "C:\\Users\\Arch\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe"
   },
@@ -89,5 +101,6 @@
   "libreOfficeForHwp": false,
   "libreOfficeForDocuments": false,
   "libreOfficeForSheets": false,
-  "keepFileDates": false
+  "keepFileDates": false,
+  "zipGeoResults": false
 }
