@@ -10,7 +10,7 @@
     "Brightness": 1
   },
   "NightConfiguration": {
-    "Temperature": 1000,
+    "Temperature": 1200,
     "Brightness": 1
   },
   "ConfigurationTransitionDuration": "02:00:00",
