@@ -11,7 +11,9 @@ dot_config/whkdrc
 {{- end }}
 
 {{- if ne .chezmoi.os "linux" }}
-dot_config/i3/
+dot_config/flameshot/
+dot_config/OpenRGB/
+dot_config/zsh/
 dot_bashrc
 {{- end }}
 
