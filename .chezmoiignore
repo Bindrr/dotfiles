@@ -1,4 +1,6 @@
-{{ if ne .chezmoi.os "windows" }}
+README.md
+
+{{- if ne .chezmoi.os "windows" }}
 Documents/
 readonly_Documents/
 AppData/
@@ -6,9 +8,10 @@ dot_config/glazewm/
 dot_config/komorebi/
 dot_config/yasb/
 dot_config/whkdrc
-{{ end }}
+{{- end }}
 
-{{ if ne .chezmoi.os "linux" }}
+{{- if ne .chezmoi.os "linux" }}
 .config/i3/
 .bashrc
-{{ end }}
+{{- end }}
+
