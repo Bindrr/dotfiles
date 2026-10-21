@@ -1,17 +1,17 @@
 README.md
 
 {{- if eq .chezmoi.os "linux" }}
-Documents/*
-AppData/*
-dot_config/glazewm/*
-dot_config/komorebi/*
-dot_config/yasb/*
-dot_config/whkdrc
+Documents
+AppData
+.config/glazewm/
+.config/komorebi/
+.config/yasb/
+.config/whkdrc
 {{ end }}
 
 {{- if eq .chezmoi.os "windows" }}
 .profile
-dot_config/flameshot/*
-dot_config/OpenRGB/*
-dot_config/zsh/*
+.config/flameshot/
+.config/OpenRGB/
+.config/zsh/
 {{- end }}
