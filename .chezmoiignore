@@ -1,17 +1,18 @@
 README.md
 
-{{ if ne .chezmoi.os "windows" }}
-Documents/
-AppData/
-dot_config/glazewm/
-dot_config/komorebi/
-dot_config/yasb/
+{{- if eq .chezmoi.os "linux" }}
+Documents/*
+AppData/*
+dot_config/glazewm/*
+dot_config/komorebi/*
+dot_config/yasb/*
 dot_config/whkdrc
 {{ end }}
 
-{{ if ne .chezmoi.os "linux" }}
+{{- if eq .chezmoi.os "windows" }}
 dot_profile
-dot_config/flameshot/
-dot_config/OpenRGB/
-dot_config/zsh/
-{{ end }}
+.profile
+dot_config/flameshot/*
+dot_config/OpenRGB/*
+dot_config/zsh/*
+{{- end }}
