@@ -10,7 +10,7 @@ dot_config/whkdrc
 {{ end }}
 
 {{- if eq .chezmoi.os "windows" }}
-dot_profile
+.profile
 dot_config/flameshot/*
 dot_config/OpenRGB/*
 dot_config/zsh/*
