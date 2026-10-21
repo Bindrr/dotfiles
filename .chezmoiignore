@@ -2,7 +2,6 @@ README.md
 
 {{- if ne .chezmoi.os "windows" }}
 Documents/
-readonly_Documents/
 AppData/
 dot_config/glazewm/
 dot_config/komorebi/
@@ -11,8 +10,8 @@ dot_config/whkdrc
 {{- end }}
 
 {{- if ne .chezmoi.os "linux" }}
+dot_profile
 dot_config/flameshot/
 dot_config/OpenRGB/
 dot_config/zsh/
-dot_profile
 {{- end }}
