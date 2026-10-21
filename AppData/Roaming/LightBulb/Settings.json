@@ -6,7 +6,7 @@
   "MinimumBrightness": 0.1,
   "MaximumBrightness": 1,
   "DayConfiguration": {
-    "Temperature": 6600,
+    "Temperature": 6700,
     "Brightness": 1
   },
   "NightConfiguration": {
