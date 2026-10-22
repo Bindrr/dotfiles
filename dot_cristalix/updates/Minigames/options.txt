@@ -4,7 +4,7 @@ mouseSensitivity:0.3028169
 fov:0.625
 gamma:10.0
 renderDistance:20
-guiScale:3
+guiScale:2
 particles:0
 bobView:false
 enableVsync:false
@@ -15,7 +15,7 @@ fancyGraphics:false
 ao:0
 volumetricMode:1
 renderClouds:false
-resourcePacks:["!  P§7v§fP Addons§8.zip","!  P§7v§fP Icons§8.zip","§   §fJedicraft Sky§8.zip","TransparentGUI-1.12.X-R7.zip","Small Held Items.zip"]
+resourcePacks:["!  P§7v§fP Addons§8.zip","!  P§7v§fP Icons§8.zip","§   §fJedicraft Sky§8.zip","TransparentGUI-1.12.X-R7.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -70,16 +70,17 @@ key_key.fullscreen:87
 key_i18n.monopoly.bind.surrend:24
 key_key.loadToolbarActivator:68
 key_key.custom.f743af0f-e310-465b-ab01-786fc3a2f3c6:22
-key_key.custom.0c7ee01e-bfac-45bf-b419-e1f7e1de61bf:0
+key_i18n.prison.classic.binds.level_upgrade:22
 key_key.custom.87ecefbb-e117-4cbf-8659-a9113117daa4:25
 key_key.custom.a09977fc-647b-4e49-a99a-1fa952a608ff.dda0c3c4-edeb-46f7-8fb8-8b4ee61045ed:43
-key_i18n.prison.classic.binds.level_upgrade:22
+key_key.custom.0c7ee01e-bfac-45bf-b419-e1f7e1de61bf:0
 key_key.fastCircle:207
 key_key.screenshot:62
 key_Донат-меню:23
 key_Меню локаций:38
 key_key.custom.d741679a-096f-4ed4-8469-28c80f843894:35
 key_Premium menu:23
+key_Таблица счёта:41
 key_key.inventory:18
 key_key.custom.a2b96481-7943-4377-9183-917b9830753b:0
 key_katana.binds.upgrade.title:22
@@ -95,10 +96,10 @@ key_Battle Pass:48
 key_dev.emoji:0
 key_i18n.Скрыть игроков:37
 key_key.drop:15
-key_i18n.Боевой пропуск:48
+key_Скрыть/Показать игроков:35
 key_key.custom.a09977fc-647b-4e49-a99a-1fa952a608ff.f743af0f-e310-465b-ab01-786fc3a2f3c6:24
 key_Надеть набор #2:80
-key_Скрыть/Показать игроков:35
+key_i18n.Боевой пропуск:48
 key_i18n.sims.bind.donate:37
 key_key.custom.dda0c3c4-edeb-46f7-8fb8-8b4ee61045ed:43
 key_i18n.prison.classic.binds.menu:45
@@ -108,21 +109,22 @@ key_key.marker.right:0
 key_wada.marker.left:0
 key_key.custom.a09977fc-647b-4e49-a99a-1fa952a608ff.7023dbd5-a90b-4691-b484-de1c1b19ff44:0
 key_key.custom.37394e04-40a3-482c-a48f-e0bf8972daaf:0
-key_key.hotbar.3:4
 key_key.marker.menu:0
+key_key.hotbar.3:4
 key_i18n.prison.oldschool.bind.detonator:19
 key_scp.bind.micro-hid-stop:34
 key_i18n.sims.bind.actions:48
-key_i18n.arcade.lobby.keybind.profile:18
+key_Открыть магазин:48
 key_key.custom.1faffae6-b96d-40cc-a8ea-ba6bf4a09d1a:39
+key_i18n.sims.bind.works:49
 key_key.custom.02a8b650-3fbd-4152-a92f-f9121cca3f3c:0
 key_Лечь:50
 key_key.hotbar.4:5
+key_i18n.arcade.lobby.keybind.profile:18
 key_key.smoothCamera:0
-key_i18n.sims.bind.works:49
 key_i18n.sims.bind.business:33
-key_key.custom.a09977fc-647b-4e49-a99a-1fa952a608ff.4fe45a09-0228-459a-af2d-5718ff248c67:49
 key_i18n.prison.oldschool.bind.quests:37
+key_key.custom.a09977fc-647b-4e49-a99a-1fa952a608ff.4fe45a09-0228-459a-af2d-5718ff248c67:49
 key_key.forward:17
 key_Hide players:35
 key_key.togglePerspective:34
@@ -249,15 +251,16 @@ key_key.custom.42c460db-4bbf-46e8-a660-c056c1a260bf:0
 key_key.saveToolbarActivator:68
 key_key.custom.4f437a80-dec4-4cb6-a631-37907394fc9e:0
 key_Profile:45
+key_Дерево прокачки:49
 key_i18n.sims.bind.needs:50
 key_key.custom.c50a41e4-8b32-4511-8777-cf578b94d825:23
 key_key.command:53
-key_i18n.monopoly.bind.credit:23
 key_key.custom.42e89b4f-4da2-4840-b8a5-e228fae12cae:184
+key_i18n.monopoly.bind.credit:23
 key_key.hotbar.5:6
 key_key.hotbar.1:2
-key_Авто-Кликер:37
 key_Профиль:48
+key_Авто-Кликер:37
 key_Показать\скрыть игроков:35
 key_Сесть:49
 key_sbcr.mod.clicker.right:37
