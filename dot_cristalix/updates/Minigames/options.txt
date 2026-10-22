@@ -80,7 +80,7 @@ key_Донат-меню:23
 key_Меню локаций:38
 key_key.custom.d741679a-096f-4ed4-8469-28c80f843894:35
 key_Premium menu:23
-key_Таблица счёта:22
+key_Таблица счёта:20
 key_key.inventory:18
 key_key.custom.a2b96481-7943-4377-9183-917b9830753b:0
 key_katana.binds.upgrade.title:22
@@ -262,6 +262,7 @@ key_key.hotbar.5:6
 key_key.hotbar.1:2
 key_Профиль:48
 key_Авто-Кликер:37
+key_Развернуть миникарту:20
 key_Показать\скрыть игроков:35
 key_Сесть:49
 key_sbcr.mod.clicker.right:37
