@@ -115,7 +115,7 @@ window_behavior:
     fullscreen:
       # Maximize the window if possible. If the window doesn't have a
       # maximize button, then it'll be fullscreen'ed normally instead.
-      maximized: false
+      maximized: true
 
       # Whether to show fullscreen windows as always on top.
       shown_on_top: false
@@ -171,8 +171,13 @@ window_rules:
     match:
       - window_title: { equals: 'Auto-Type - KeePassXC' }
         
+  - commands: ['toggle-fullscreen']
+    match:
+      - window_title: { regex: 'VLC' }
+        
   - commands: ['move --workspace 1']
     match:
+      - window_process: { regex: 'Forkgram' }
       - window_process: { regex: '(?i)zen|helium|librewolf' }
 
   - commands: ['move --workspace 2']
@@ -185,16 +190,21 @@ window_rules:
 
   - commands: ['focus --workspace 4', 'move --workspace 4']
     match:
-      - window_process: { regex: '(?i)forkgram|telegram|discord' }
+      - window_process: { regex: 'Telegram' }
+      - window_title: { regex: 'Discord' }
 
   - commands: ['focus --workspace 5', 'move --workspace 5']
     match:
-      - window_process: { regex: '(?i)sonora|music|pear' }
+      - window_process: { regex: 'sonora' }
+      - window_process: { regex: 'YouTube Music' }
+      - window_process: { regex: 'pear' }
 
   - commands: ['focus --workspace 6', 'move --workspace 6']
     match:
       - window_process: { regex: 'obs' }
-      - window_process: { regex: '(?i)throne|adguard|winws' }
+      - window_process: { regex: 'Throne' }
+      - window_process: { regex: 'AdGuard' }
+      - window_process: { regex: 'winws' }
 
   # - commands: ['focus --workspace 6', 'move --workspace 6', 'focus --workspace 1']
     # match:
