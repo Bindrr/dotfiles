@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 32,
+  "schemaVersion": 46,
   "language": "auto",
   "startWithSystem": true,
   "contextMenuEnabled": false,
@@ -9,11 +9,12 @@
   "historyLimit": 200,
   "showInDock": true,
   "showMenuBarIcon": true,
-  "notifiedUpdateVersion": "2.0.0",
-  "whatsNewSeenVersion": "2.0.0",
+  "notifiedUpdateVersion": "2.1.0",
+  "whatsNewSeenVersion": "2.1.0",
   "notifiedEngineVersions": {},
   "paused": false,
   "theme": {
+    "style": "Soft",
     "mode": "System",
     "accent": "#D4AF37",
     "cornerRadius": 22,
@@ -84,6 +85,7 @@
   "firstRunCompleted": true,
   "successfulConversions": 3,
   "feedbackPromptShown": true,
+  "accessibilityPromptShown": false,
   "watchFolders": [],
   "defaultOutput": {
     "location": "SameFolder",
@@ -102,5 +104,6 @@
   "libreOfficeForDocuments": false,
   "libreOfficeForSheets": false,
   "keepFileDates": false,
-  "zipGeoResults": false
+  "zipGeoResults": false,
+  "uiScale": 1
 }

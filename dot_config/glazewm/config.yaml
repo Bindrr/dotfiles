@@ -204,6 +204,7 @@ window_rules:
       - window_process: { regex: 'obs' }
       - window_process: { regex: 'Throne' }
       - window_process: { regex: 'AdGuard' }
+      - window_process: { regex: 'Happ' }
       - window_process: { regex: 'winws' }
 
   # - commands: ['focus --workspace 6', 'move --workspace 6', 'focus --workspace 1']
