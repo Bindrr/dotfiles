@@ -6,18 +6,18 @@
   "MinimumBrightness": 0.1,
   "MaximumBrightness": 1,
   "DayConfiguration": {
-    "Temperature": 6700,
+    "Temperature": 6600,
     "Brightness": 1
   },
   "NightConfiguration": {
-    "Temperature": 1200,
+    "Temperature": 2000,
     "Brightness": 1
   },
-  "ConfigurationTransitionDuration": "02:00:00",
+  "ConfigurationTransitionDuration": "02:30:00",
   "ConfigurationTransitionOffset": 0,
   "ConfigurationSmoothingMaxDuration": "00:00:05",
   "IsManualSunriseSunsetEnabled": true,
-  "ManualSunriseTime": "07:00:00",
+  "ManualSunriseTime": "07:30:00",
   "ManualSunsetTime": "18:00:00",
   "Location": null,
   "Theme": 2,

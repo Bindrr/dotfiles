@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 46,
+  "schemaVersion": 54,
   "language": "auto",
   "startWithSystem": true,
   "contextMenuEnabled": false,
@@ -9,8 +9,8 @@
   "historyLimit": 200,
   "showInDock": true,
   "showMenuBarIcon": true,
-  "notifiedUpdateVersion": "2.1.0",
-  "whatsNewSeenVersion": "2.1.0",
+  "notifiedUpdateVersion": "2.2.0",
+  "whatsNewSeenVersion": "2.2.0",
   "notifiedEngineVersions": {},
   "paused": false,
   "theme": {
