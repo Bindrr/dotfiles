@@ -177,7 +177,6 @@ window_rules:
         
   - commands: ['move --workspace 1']
     match:
-      - window_process: { regex: 'Forkgram' }
       - window_process: { regex: '(?i)zen|helium|librewolf' }
 
   - commands: ['move --workspace 2']
@@ -188,16 +187,17 @@ window_rules:
     match:
       - window_process: { regex: '(?i)davinchi|affinity' }
 
-  - commands: ['focus --workspace 4', 'move --workspace 4']
-    match:
-      - window_process: { regex: 'Telegram' }
-      - window_title: { regex: 'Discord' }
+  # - commands: ['focus --workspace 4', 'move --workspace 4']
+    # match:
+      # - window_process: { regex: 'a' }
 
   - commands: ['focus --workspace 5', 'move --workspace 5']
     match:
       - window_process: { regex: 'sonora' }
       - window_process: { regex: 'YouTube Music' }
       - window_process: { regex: 'pear' }
+      - window_process: { regex: 'Telegram' }
+      - window_title: { regex: 'Discord' }
 
   - commands: ['focus --workspace 6', 'move --workspace 6']
     match:
