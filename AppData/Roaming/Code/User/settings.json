@@ -646,4 +646,5 @@
   "workbench.browser.showInTitleBar": false,
   "workbench.remoteIndicator.showExtensionRecommendations": false,
   "extensions.ignoreRecommendations": true,
+  "security.promptForLocalFileProtocolHandling": false,
 }

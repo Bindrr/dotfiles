@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 54,
+  "schemaVersion": 63,
   "language": "auto",
   "startWithSystem": true,
   "contextMenuEnabled": false,
@@ -9,9 +9,11 @@
   "historyLimit": 200,
   "showInDock": true,
   "showMenuBarIcon": true,
-  "notifiedUpdateVersion": "2.2.0",
-  "whatsNewSeenVersion": "2.2.0",
-  "notifiedEngineVersions": {},
+  "notifiedUpdateVersion": "2.3.0",
+  "whatsNewSeenVersion": "2.3.0",
+  "notifiedEngineVersions": {
+    "pandoc": "3.13"
+  },
   "paused": false,
   "theme": {
     "style": "Soft",
@@ -36,7 +38,8 @@
       "button": "Left",
       "dragThreshold": 0,
       "holdMilliseconds": 450,
-      "scope": "FileManager"
+      "scope": "FileManager",
+      "clipboard": false
     },
     {
       "id": "98578bd6",
@@ -47,7 +50,8 @@
       "key": "C",
       "dragThreshold": 0,
       "holdMilliseconds": 450,
-      "scope": "FileManager"
+      "scope": "FileManager",
+      "clipboard": false
     }
   ],
   "excludedProcesses": [],
@@ -105,5 +109,14 @@
   "libreOfficeForSheets": false,
   "keepFileDates": false,
   "zipGeoResults": false,
-  "uiScale": 1
+  "uiScale": 1,
+  "navCollapsed": false,
+  "mainWindow": {
+    "x": -5,
+    "y": 2,
+    "width": 1914,
+    "height": 1044,
+    "maximized": false
+  },
+  "turnedOffFields": []
 }
