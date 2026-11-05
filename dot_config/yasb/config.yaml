@@ -31,9 +31,9 @@ bars:
       height: 36
     padding:
       top: 0
-      left: 3
+      left: 20
       bottom: 0
-      right: 3
+      right: 20
     widgets:
       left:
       - pomodoro
