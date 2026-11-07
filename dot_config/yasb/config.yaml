@@ -360,19 +360,26 @@ widgets:
           toggle_down: "\uE972"
           toggle_up: "\uE971"
   notifications:
-    type: yasb.notifications.NotificationsWidget
+    type: "yasb.notifications.NotificationsWidget"
     options:
-      label: "<span>{icon}</span>"
-      label_alt: '{count} notifications'
-      hide_empty: false
+      label: "<span>\uf476</span> {count}"
+      label_alt: "{count} notifications"
+      hide_empty: true
       tooltip: false
-      icons:
-        new: "\ued0c"
-        default: "\ue91c"
+      menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        app_icon_size: 16
       callbacks:
-        on_left: "toggle_notification"
-        on_right: clear_notifications
-        on_middle: do_nothing
+        on_left: "toggle_menu"
+        on_right: "toggle_notification"
+        on_middle: "toggle_label"
   systray:
     type: yasb.systray.SystrayWidget
     options:
